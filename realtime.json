@@ -1,0 +1,28 @@
+{
+  "commands": {
+    "feed": {
+      "request_id": "uuid-1234",
+      "amount_g": 50,
+      "issued_at": "2025-07-13T07:35:12Z"
+    },
+    "diagnose": "REQUEST"
+  },
+  "device_status": {
+    "is_online": true,
+    "current_state": "idle",
+    "last_seen": "2025-07-13T07:36:01Z"
+  },
+  "feeding_log": {
+    "-Nxyz123": {        
+      "amount_g": 50,
+      "timestamp": "2025-07-13T07:36:05Z"
+    }
+  },
+  "diagnosis_log": {
+    "last_result": {
+      "result": ["cataract:Early(92.3%)"],
+      "image_url": "https://example.com/photos/result_20250713_073602.jpg",
+      "timestamp": "2025-07-13T07:36:02Z"
+    }
+  }
+}

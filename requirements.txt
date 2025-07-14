@@ -1,0 +1,13 @@
+numpy==1.26.4
+opencv-python==4.11.0.86
+tflite-runtime==2.14.0
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.3.162
+picamera2==0.3.27
+RPi.GPIO==0.7.1
+pyserial==3.5
+firebase-admin==6.9.0
+google-cloud-storage==3.1.1
+requests==2.28.1
+
